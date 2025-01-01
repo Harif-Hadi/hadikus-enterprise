@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Homepage from "@/components/Homepage/Homepage";
+
 export default function Home() {
   return (
     <div>
@@ -7,7 +9,7 @@ export default function Home() {
         <title>Hadikus Enterprise</title>
         <meta name="description" content="Online shop" />
       </Head>
-      <h1>The homepage</h1>
+      <Homepage />
     </div>
   );
 }

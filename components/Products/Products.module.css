@@ -1,0 +1,44 @@
+.products_container {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    margin: 7rem 0;
+    overflow-x: scroll;
+    padding: 0 2rem;
+
+}
+
+.products::-webkit-scrollbar {
+    display: none;
+}
+
+.product_item {
+    margin-right: 3rem;
+    position: relative;
+}
+
+.product_item:last-child {
+    margin-right: 0;
+}
+
+.favorite_container {
+    background-color: whitesmoke;
+    position: absolute;
+    padding: 0.5rem 0.7rem;
+    margin-top: 0.7rem;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.products_information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products_information h3 {
+    font-weight: 400;
+}
